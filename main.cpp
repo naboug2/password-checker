@@ -1,9 +1,7 @@
 /****************************
-Program 3: Password Checker
-Course: CS 141, Fall 2022
+Password Checker
 System: MacOS using VSCode
-Starter Code Author: Dr. Sara Riazi
-Student Author: Nuha Abougoash 
+Author: Nuha Abougoash 
  **************************/
 #include <iostream>
 #include <string>
@@ -201,11 +199,8 @@ void run(string leaked_password_file, string english_word_file){
 }
 
 int main() {
-	/** Change the address of the files appropriatly based on your local machine.
-	 * This main function will be replaced during testing. Do not add any line of code to the main function 
-	 **/
-	string leaked_password_file = "alleged-gmail-passwords.txt"; //change this based on the location of the file on your machine
-	string english_word_file = "words_5.txt"; //change this based on the location of the file on your machine
+	string leaked_password_file = "alleged-gmail-passwords.txt"; 
+	string english_word_file = "words_5.txt"; 
 	run(leaked_password_file, english_word_file);
 	return 0;	
 }
